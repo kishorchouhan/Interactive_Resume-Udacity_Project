@@ -430,6 +430,9 @@ function inName(oldName) {
         init: function() {
             var dataProject = octopus.getProjectData();
             for (var i = 0; i < dataProject.projects.length; i++) {
+                /*  this.formattedUrl = HTMLprojectUrl.replace("%data%",dataProject.projects[i].url);
+                    this.formattedTitle = HTMLprojectTitle.replace("%data%",dataProject.projects[i].title);
+                    var formattedProjectTitle = formattedUrl + formattedTitle; */
                 this.formattedTitle = HTMLprojectTitle.replace("%data%",dataProject.projects[i].title);
                 this.formattedDates = HTMLprojectDates.replace("%data%",dataProject.projects[i].dates);
                 this.formattedDescription = HTMLprojectDescription.replace("%data%",dataProject.projects[i].description);
@@ -445,6 +448,7 @@ function inName(oldName) {
         },
         render: function() {
             $("#projects").append(HTMLprojectStart);
+            /* $(".project-entry:last").append(this.formattedProjectTitle); */
             $(".project-entry:last").append(this.formattedTitle);
             $(".project-entry:last").append(this.formattedDates);
             $(".project-entry:last").append(this.formattedDescription);
