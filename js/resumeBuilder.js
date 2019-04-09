@@ -263,9 +263,15 @@ function inName(oldName) {
 
         projectData: {
             "projects": [{
+                    "title": "Frogger Arcade Game",
+                    "dates": "2019",
+                    "description": "Created this game as part of Final Project of Object-Oriented JavaScript course in Udacity's Front-End Web Developer Nanodegree.In this game the goal is simple, get the hero character to move across the gray bricks towards the water without getting hit by the enemy bugs. The speed of enemy bugs will change with start of each game." ,
+                    "images": ["images/Frogger Arcade Game.png"],
+                    "url": "https://kishorchouhan.github.io/Frogger-Arcade-Game-Udacity-Project/"
+                },{
                     "title": "Cat Clicker App",
                     "dates": "2019",
-                    "description": "Created this app as part of Final Project of Udacity's Front-End Web Developer Nanodegree. In this app JavaScript is organized within a MVC (Model, View, Controller) architecture. In order to use this app, click on the name of the cat that you would like to see and their picture will appear on the right. Click on the 'Admin' button and three input boxes will appear. These boxes will allow you to change the name of the cat, the picture, and # of clicks on each cats' picture. Click the 'save' button to save your changes to the cat and the 'cancel' button to discard the changes." ,
+                    "description": "Created this app as part of Project of JavaScript Design Patterns course in Udacity's Front-End Web Developer Nanodegree. In this app JavaScript is organized within a MVC (Model, View, Controller) architecture. In order to use this app, click on the name of the cat that you would like to see and their picture will appear on the right. Click on the 'Admin' button and three input boxes will appear. These boxes will allow you to change the name of the cat, the picture, and # of clicks on each cats' picture. Click the 'save' button to save your changes to the cat and the 'cancel' button to discard the changes." ,
                     "images": ["images/Cat Clicker Premium Pro.png"],
                     "url": "https://kishorchouhan.github.io/Cat-Clicker-Premium-Pro-Udacity-Project/"
                 },{
