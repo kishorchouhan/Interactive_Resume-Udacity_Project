@@ -293,7 +293,7 @@ function inName(oldName) {
                 {
                     "title": "Neighborhood Tour App",
                     "dates": "2019",
-                    "description": "This is the Udacity Neighborhood Map Project! It's intended as a challenge to put together a website from various APIs. This includes making function calls to Google Maps and other location-based services like Foursquare. Included is a list of famous tourist places in Jaipur of India.",
+                    "description": "A single-page web application, built using the Knockout framework and Google Maps API, that displays a Google Map of Jaipur, India and various landmarks which point to famous tourist places in this city. Users can search all included landmarks and, when selected, additional information about a landmark/place is presented from the Firebase real-time backend.<br>► Third-party APIs: Google Maps, FourSquare<br>► Third-party Libraries/Plug-ins: Knockout.js, jQuery<br>► Highlights: Worked with Promises library, MVVM Framework, second-ever SPA, Gulp Build Process<br>► Technologies used: HTML/CSS/JavaScript.<br>Building this application was complex and incorporated a variety of data points that made my initial builds unwieldy to manage. The most challenging aspects of this project were ensuring the implementation of scalable code architecture and handling multiple asynchronous AJAX calls.<br>It was highly rewarding to learn how to use an MV* framework (Knockout), a JavaScript Promises library while integrating data from third-party API's (FourSquare, Google Maps) and then seeing it all come together as one responsively designed SPA. This was easily one of my favourite projects.",
                     "images": ["images/neighborhood tour app.png"],
                     "url": "https://kishorchouhan.github.io/Neighborhood-Map-App-Udacity-Project/"
                 },
@@ -321,7 +321,7 @@ function inName(oldName) {
                 {
                     "title": "Online Portfolio",
                     "dates": "2019",
-                    "description": "Created an online portfolio of work as part of Final Project#1 of Udacity's Front-End Web Developer Nanodegree by using HTML, CSS and Bootstrap.",
+                    "description": "In this project, I was required to turn a mock-up into a responsive web page.<br>The site is responsive to different viewport sizes.<br>This project is from FreeCodeCamp: Responsive Web Design Course.<br>► Used: HTML5, CSS3 and Bootstrap's grid system.",
                     "images": ["images/Portfolio_Profile-Kishor.png"],
                     "url": "https://kishorchouhan.github.io/Portfolio-Profile-Udacity-Project/"
                 },
