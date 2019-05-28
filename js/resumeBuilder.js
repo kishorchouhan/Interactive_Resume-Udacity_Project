@@ -246,8 +246,8 @@ function inName(oldName) {
                 "twitter": "@kishorchouhan19",
                 "location": "Rajasthan, India"
             },
-            "welcomeMessage": "Hi, I'm an Electrical Engineer (Selected for Assistant Loco Pilot in Indian Railway) turned Web Developer because it’s just awesome. I have always been passionate about programming and what it stands for. I am currently involved in the Front End Web Developer Nanodegree program at Udacity and preparing to enter the software Industry. Programming, in my opinion, is a medium to convert thoughts to action and to be creative in solving problems.",
-            "skills": ["HTML", "CSS", "JS", "Python"],
+            "welcomeMessage": "I'm a front end web developer (Previously selected for Assistant Loco Pilot in Indian Railway). I love solving problems, providing solutions and working on open source projects that save people time and money and help their day to day lives. Programming, in my opinion, is a medium to convert thoughts to action and to be creative in solving problems. Thanks for stopping by!",
+            "skills": ["JavaScript","HTML5", "CSS", "jQuery", "Bootstarp", "KnockoutJS", "Git/GitHub", "Python"],
             "bioPic": "images/pic.jpg",
         },
 
@@ -265,21 +265,21 @@ function inName(oldName) {
             "projects": [{
                     "title": "Frogger Arcade Game",
                     "dates": "2019",
-                    "description": "Created this game as part of Final Project of Object-Oriented JavaScript course in Udacity's Front-End Web Developer Nanodegree.In this game the goal is simple, get the hero character to move across the gray bricks towards the water without getting hit by the enemy bugs. The speed of enemy bugs will change with start of each game." ,
-                    "images": ["images/Frogger Arcade Game.png"],
+                    "description": "A game inspired by the classic arcade game Frogger. In this game the goal is simple, get the hero character to move across the grey bricks towards the water without getting hit by the enemy bugs. The speed of enemy bugs will change with the start of each game.<br>I developed it as a final project of Object-Oriented JavaScript and HTML5-Canvas course in Udacity’s Front-End Web Developer Nanodegree to check out my knowledge of these technologies.<br>Udacity provided the game engine and supported files.<br>► Technologies used: HTML5, HTML5 - Canvas, CSS, JavaScript and JQuery.<br>► Highlights: Collision Mechanics, Game Logic, JavaScript Functions, Classes, Prototypal Classes, Pseudoclassical Patterns and Scopes." ,
+                    "images": ["images/Frogger Arcade Game.jpg"],
                     "url": "https://kishorchouhan.github.io/Frogger-Arcade-Game-Udacity-Project/"
                 },
                 {
                     "title": "Cat Clicker App",
                     "dates": "2019",
-                    "description": "Created this app as part of Project of JavaScript Design Patterns course in Udacity's Front-End Web Developer Nanodegree. In this app JavaScript is organized within a MVC (Model, View, Controller) architecture. In order to use this app, click on the name of the cat that you would like to see and their picture will appear on the right. Click on the 'Admin' button and three input boxes will appear. These boxes will allow you to change the name of the cat, the picture, and # of clicks on each cats' picture. Click the 'save' button to save your changes to the cat and the 'cancel' button to discard the changes." ,
+                    "description": "Application display a list of at least 5 cats, listed by name, an area to display the selected cat’s name, picture and text showing the number of clicks on picture and an admin button to edit the cat details.<br>Created this app as part of the Project of JavaScript Design Patterns course in Udacity's Front-End Web Developer Nanodegree and learned how to structure the code and build an organized application. In this app, JavaScript is organized within an MVC (Model, View, Controller) architecture.<br>In order to use this app, click on the name of the cat that you would like to see and their picture will appear on the right. Click on the 'Admin' button and three input boxes will appear. These boxes will allow you to change the name of the cat, the picture, and # of clicks on each cats' picture. Click the 'save' button to save your changes to the cat and the 'cancel' button to discard the changes.<br>► Technologies used: JavaScript, CSS, HTML5" ,
                     "images": ["images/Cat Clicker Premium Pro.png"],
                     "url": "https://kishorchouhan.github.io/Cat-Clicker-Premium-Pro-Udacity-Project/"
                 },
                 {
                     "title": "Online Resume",
                     "dates": "2019",
-                    "description": "Created an online Interactive Resume as part of Final Project#2 of Udacity's Front-End Web Developer Nanodegree.",
+                    "description": "An interactive resume application that reads your resume content from a JSON file and dynamically displays that content within a provided template. Further customized the project by personalizing the design using CSS.<br>Created this online Interactive Resume as part of the Project of JavaScript Basics course in Udacity's Front-End Web Developer Nanodegree.<br>► Technologies used: objects, functions, conditionals, and control structures to compose the content that will display on the resume.",
                     "images": ["images/resume.png"],
                     "url": "https://kishorchouhan.github.io/Interactive_Resume-Udacity_Project/"
                 },
