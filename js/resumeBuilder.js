@@ -33,18 +33,18 @@
 
         projectData: {
             "projects": [{
+                    "title": "Neighborhood Tour App",
+                    "dates": "2019",
+                    "description": "A single-page web application, built using the Knockout framework and Google Maps API, that displays a Google Map of Jaipur, India and various landmarks which point to famous tourist places in this city. Users can search all included landmarks and, when selected, additional information about a landmark/place is presented from the Firebase real-time backend.<br>► Third-party APIs: Google Maps, FourSquare<br>► Third-party Libraries/Plug-ins: Knockout.js, jQuery<br>► Highlights: Worked with Promises library, MVVM Framework, second-ever SPA, Gulp Build Process<br>► Technologies used: HTML/CSS/JavaScript.<br>Building this application was complex and incorporated a variety of data points that made my initial builds unwieldy to manage. The most challenging aspects of this project were ensuring the implementation of scalable code architecture and handling multiple asynchronous AJAX calls.<br>It was highly rewarding to learn how to use an MV* framework (Knockout), a JavaScript Promises library while integrating data from third-party API's (FourSquare, Google Maps) and then seeing it all come together as one responsively designed SPA. This was easily one of my favourite projects.",
+                    "images": ["images/neighborhood tour app.png"],
+                    "url": "https://kishorchouhan.github.io/Neighborhood-Map-App-Udacity-Project/"
+                },
+                {
                     "title": "Frogger Arcade Game",
                     "dates": "2019",
                     "description": "A game inspired by the classic arcade game Frogger. In this game the goal is simple, get the hero character to move across the grey bricks towards the water without getting hit by the enemy bugs. The speed of enemy bugs will change with the start of each game.<br>I developed it as a final project of Object-Oriented JavaScript and HTML5-Canvas course in Udacity’s Front-End Web Developer Nanodegree to check out my knowledge of these technologies.<br>Udacity provided the game engine and supported files.<br>► Technologies used: HTML5, HTML5 - Canvas, CSS, JavaScript and JQuery.<br>► Highlights: Collision Mechanics, Game Logic, JavaScript Functions, Classes, Prototypal Classes, Pseudoclassical Patterns and Scopes." ,
                     "images": ["images/Frogger Arcade Game.jpg"],
                     "url": "https://kishorchouhan.github.io/Frogger-Arcade-Game-Udacity-Project/"
-                },
-                {
-                    "title": "Cat Clicker App",
-                    "dates": "2019",
-                    "description": "Application display a list of at least 5 cats, listed by name, an area to display the selected cat’s name, picture and text showing the number of clicks on picture and an admin button to edit the cat details.<br>Created this app as part of the Project of JavaScript Design Patterns course in Udacity's Front-End Web Developer Nanodegree and learned how to structure the code and build an organized application. In this app, JavaScript is organized within an MVC (Model, View, Controller) architecture.<br>In order to use this app, click on the name of the cat that you would like to see and their picture will appear on the right. Click on the 'Admin' button and three input boxes will appear. These boxes will allow you to change the name of the cat, the picture, and # of clicks on each cats' picture. Click the 'save' button to save your changes to the cat and the 'cancel' button to discard the changes.<br>► Technologies used: JavaScript, CSS, HTML5" ,
-                    "images": ["images/Cat Clicker Premium Pro.png"],
-                    "url": "https://kishorchouhan.github.io/Cat-Clicker-Premium-Pro-Udacity-Project/"
                 },
                 {
                     "title": "Online Resume",
@@ -54,18 +54,25 @@
                     "url": "https://kishorchouhan.github.io/Interactive_Resume-Udacity_Project/"
                 },
                 {
+                    "title": "Technical Documentation Page",
+                    "dates": "2019",
+                    "description": "This project is from FreeCodeCamp: Responsive Web Design Course. In this project I have to build a Technical Documentation Page which should be functionally similar to https://codepen.io/freeCodeCamp/full/NdrKKL",
+                    "images": ["images/Technical Documentation Page.png"],
+                    "url": "https://kishorchouhan.github.io/Technical-Documentation-Page-FCC-Project/"
+                },
+                {
+                    "title": "Cat Clicker App",
+                    "dates": "2019",
+                    "description": "Application display a list of at least 5 cats, listed by name, an area to display the selected cat’s name, picture and text showing the number of clicks on picture and an admin button to edit the cat details.<br>Created this app as part of the Project of JavaScript Design Patterns course in Udacity's Front-End Web Developer Nanodegree and learned how to structure the code and build an organized application. In this app, JavaScript is organized within an MVC (Model, View, Controller) architecture.<br>In order to use this app, click on the name of the cat that you would like to see and their picture will appear on the right. Click on the 'Admin' button and three input boxes will appear. These boxes will allow you to change the name of the cat, the picture, and # of clicks on each cats' picture. Click the 'save' button to save your changes to the cat and the 'cancel' button to discard the changes.<br>► Technologies used: JavaScript, CSS, HTML5" ,
+                    "images": ["images/Cat Clicker Premium Pro.png"],
+                    "url": "https://kishorchouhan.github.io/Cat-Clicker-Premium-Pro-Udacity-Project/"
+                },
+                {
                     "title": "Personal Portfolio Webpage",
                     "dates": "2019",
                     "description": "This project is from FreeCodeCamp: Responsive Web Design Course. In this project I have to build a Personal Portfolio Webpage which should be functionally similar to https://codepen.io/freeCodeCamp/full/zNBOYG .",
                     "images": ["images/Personal Portfolio Webpage.png"],
                     "url": "https://kishorchouhan.github.io/Personal-Portfolio-Webpage-FCC-Project/"
-                },
-                {
-                    "title": "Neighborhood Tour App",
-                    "dates": "2019",
-                    "description": "A single-page web application, built using the Knockout framework and Google Maps API, that displays a Google Map of Jaipur, India and various landmarks which point to famous tourist places in this city. Users can search all included landmarks and, when selected, additional information about a landmark/place is presented from the Firebase real-time backend.<br>► Third-party APIs: Google Maps, FourSquare<br>► Third-party Libraries/Plug-ins: Knockout.js, jQuery<br>► Highlights: Worked with Promises library, MVVM Framework, second-ever SPA, Gulp Build Process<br>► Technologies used: HTML/CSS/JavaScript.<br>Building this application was complex and incorporated a variety of data points that made my initial builds unwieldy to manage. The most challenging aspects of this project were ensuring the implementation of scalable code architecture and handling multiple asynchronous AJAX calls.<br>It was highly rewarding to learn how to use an MV* framework (Knockout), a JavaScript Promises library while integrating data from third-party API's (FourSquare, Google Maps) and then seeing it all come together as one responsively designed SPA. This was easily one of my favourite projects.",
-                    "images": ["images/neighborhood tour app.png"],
-                    "url": "https://kishorchouhan.github.io/Neighborhood-Map-App-Udacity-Project/"
                 },
                 {
                     "title": "Moving Planner Website",
@@ -80,13 +87,6 @@
                     "description": "This is a project from Udacity Browser Rendering Optimization course. This is a simple web app that shows the top stories from Hacker News via its API. My mission is to find and fix the issues, and make the app gloriously performant.",
                     "images": ["images/news aggregator site.png"],
                     "url": "https://kishorchouhan.github.io/News-Aggregator-Site-Udacity-project/"
-                },
-                {
-                    "title": "Technical Documentation Page",
-                    "dates": "2019",
-                    "description": "This project is from FreeCodeCamp: Responsive Web Design Course. In this project I have to build a Technical Documentation Page which should be functionally similar to https://codepen.io/freeCodeCamp/full/NdrKKL",
-                    "images": ["images/Technical Documentation Page.png"],
-                    "url": "https://kishorchouhan.github.io/Technical-Documentation-Page-FCC-Project/"
                 },
                 {
                     "title": "Online Portfolio",
