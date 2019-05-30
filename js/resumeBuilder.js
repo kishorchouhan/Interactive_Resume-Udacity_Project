@@ -56,7 +56,7 @@
                 {
                     "title": "Technical Documentation Page",
                     "dates": "2019",
-                    "description": "This project is from FreeCodeCamp: Responsive Web Design Course. In this project I have to build a Technical Documentation Page which should be functionally similar to https://codepen.io/freeCodeCamp/full/NdrKKL",
+                    "description": "This is a simple web page documenting Basic JavaScript. It is part of FreeCodeCamp's challenges for Responsive Web Design.<br>In this page, there are a navbar and the page's main content (technical documentation). When clicking on a navbar element, the page should navigate to the corresponding section. On regular sized devices (laptops, desktops), the navbar should be shown on the left side of the screen and should always be visible.<br>► Technologies used: HTML5, CSS(layout: fix / relative / absolute position), media query.",
                     "images": ["images/Technical Documentation Page.png"],
                     "url": "https://kishorchouhan.github.io/Technical-Documentation-Page-FCC-Project/"
                 },
