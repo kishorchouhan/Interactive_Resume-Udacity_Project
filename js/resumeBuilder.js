@@ -54,6 +54,13 @@
                     "url": "https://kishorchouhan.github.io/Interactive_Resume-Udacity_Project/"
                 },
                 {
+                    "title": "Website Optimization",
+                    "dates": "2019",
+                    "description": "• Optimized critical rendering path of an existing web page to increase the PageSpeed Insights score from 60 to over 95 for both mobile and desktop<br>• Applied fixes for inefficiencies of the website scroll animation and image resizing to achieve a consistent 60 frames-per-second.<br>• Optimized an inefficient web application's JavaScript, CSS and assets delivery, ensuring it runs at 60fps and achieves a PageSpeed score of at least 90.",
+                    "images": ["images/pizza.png"],
+                    "url": "https://kishorchouhan.github.io/Website-Optimization-Udacity-Project/views/pizza.html"
+                },
+                {
                     "title": "Technical Documentation Page",
                     "dates": "2019",
                     "description": "This is a simple web page documenting Basic JavaScript. It is part of FreeCodeCamp's challenges for Responsive Web Design.<br>In this page, there are a navbar and the page's main content (technical documentation). When clicking on a navbar element, the page should navigate to the corresponding section. On regular sized devices (laptops, desktops), the navbar should be shown on the left side of the screen and should always be visible.<br>► Technologies used: HTML5, CSS(layout: fix / relative / absolute position), media query.",
