@@ -1,17 +1,18 @@
 /** ======== Refactored Code ========**/
+var model;
 
 (function() {
   /* ======== Model ======== */
 
-  var model = {
+  model = {
     bioData: {
       name: "Kishor",
       role: "Web Developer",
       contacts: {
         mobile: "779-385-8860",
         email: "devkishorbwr@gmail.com",
-        github: "kishorchouhan",
-        twitter: "@kishorchouhan19",
+        github: "@kishorchouhan",
+        linkedin: "@kishorchouhan",
         location: "Bengaluru, India"
       },
       welcomeMessage:
@@ -33,12 +34,13 @@
     workData: {
       jobs: [
         /*
-                {"employer": "Election Department of Beawar",
-                    "title": "Computer Operator",
-                    "location": "Beawar",
-                    "dates": "2018",
-                    "description": "Worked as an computer operator."}
-            */
+            {"employer": "Election Department of Beawar",
+                "title": "Computer Operator",
+                "location": "Beawar",
+                "dates": "2018",
+                "description": "Worked as an computer operator."
+            }
+        */
       ]
     },
 
@@ -262,9 +264,9 @@
         "%data%",
         dataBio.contacts.github
       );
-      this.formattedTwitter = HTMLtwitter.replace(
+      this.formattedLinkedin = HTMLlinkedin.replace(
         "%data%",
-        dataBio.contacts.twitter
+        dataBio.contacts.linkedin
       );
       this.formattedLocation = HTMLlocation.replace(
         "%data%",
@@ -292,13 +294,17 @@
       $("#header").prepend(this.formattedName);
 
       $("#topContacts").prepend(this.formattedLocation);
-      $("#topContacts").prepend(this.formattedTwitter);
+      $("#topContacts").prepend(this.formattedLinkedin);
       $("#topContacts").prepend(this.formattedGithub);
       $("#topContacts").prepend(this.formattedEmail);
       $("#topContacts").prepend(this.formattedMobile);
 
       $("#header").append(this.formattedBioPic);
       $("#header").append(this.formattedWelcomeMsg);
+
+      $("#footerContacts").prepend(this.formattedLinkedin);
+      $("#footerContacts").prepend(this.formattedGithub);
+      $("#footerContacts").prepend(this.formattedEmail);
     },
     renderSkills: function(formattedSkill) {
       $("#skills").append(formattedSkill);

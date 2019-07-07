@@ -20,8 +20,8 @@ var HTMLmobile =
   '<li class="flex-item"><span class="orange-text">mobile</span><span class="white-text">%data%</span></li>';
 var HTMLemail =
   '<li class="flex-item"><span class="orange-text">email</span><span class="white-text">%data%</span></li>';
-var HTMLtwitter =
-  '<li class="flex-item"><span class="orange-text">twitter</span><span class="white-text">%data%</span></li>';
+var HTMLlinkedin =
+  '<li class="flex-item"><span class="orange-text">linkedin</span><span class="white-text">%data%</span></li>';
 var HTMLgithub =
   '<li class="flex-item"><span class="orange-text">github</span><span class="white-text">%data%</span></li>';
 var HTMLblog =
@@ -129,13 +129,13 @@ function initializeMap() {
     var locations = [];
 
     // adds the single location property from bio to the locations array
-    //locations.push(bioData.contacts.location);
+    locations.push(model.bioData.contacts.location);
 
     // iterates through school locations and appends each location to
     // the locations array. Note that forEach is used for array iteration
     // as described in the Udacity FEND Style Guide:
     // https://udacity.github.io/frontend-nanodegree-styleguide/javascript.html#for-in-loop
-    education.schools.forEach(function(school) {
+    model.educationData.schools.forEach(function(school) {
       locations.push(school.location);
     });
 
@@ -143,11 +143,10 @@ function initializeMap() {
     // the locations array. Note that forEach is used for array iteration
     // as described in the Udacity FEND Style Guide:
     // https://udacity.github.io/frontend-nanodegree-styleguide/javascript.html#for-in-loop
-    work.jobs.forEach(function(job) {
+    model.workData.jobs.forEach(function(job) {
       locations.push(job.location);
     });
 
-    console.log(locations);
     return locations;
   }
 
