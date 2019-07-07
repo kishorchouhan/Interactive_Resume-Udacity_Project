@@ -10,11 +10,11 @@
             "name": "Kishor",
             "role": "Web Developer",
             "contacts": {
-                "mobile": "773-785-0385",
+                "mobile": "779-385-8860",
                 "email": "devkishorbwr@gmail.com",
                 "github": "kishorchouhan",
                 "twitter": "@kishorchouhan19",
-                "location": "Rajasthan, India"
+                "location": "Bengaluru, India"
             },
             "welcomeMessage": "I'm a front end web developer (Previously selected for Assistant Loco Pilot in Indian Railway). I love solving problems, providing solutions and working on open source projects that save people time and money and help their day to day lives. Programming, in my opinion, is a medium to convert thoughts to action and to be creative in solving problems. Thanks for stopping by!",
             "skills": ["JavaScript","ReactJS","HTML5", "CSS", "jQuery", "Bootstarp", "KnockoutJS", "Git/GitHub", "Python"],
@@ -59,6 +59,13 @@
                     "description": "An interactive resume application that reads your resume content from a JSON file and dynamically displays that content within a provided template. Further customized the project by personalizing the design using CSS.<br>Created this online Interactive Resume as part of the Project of JavaScript Basics course in Udacity's Front-End Web Developer Nanodegree.<br>► Technologies used: objects, functions, conditionals, and control structures to compose the content that will display on the resume.",
                     "images": ["images/resume.png"],
                     "url": "https://kishorchouhan.github.io/Interactive_Resume-Udacity_Project/"
+                },
+                {
+                    "title": "Todo App",
+                    "dates": "2019",
+                    "description": "It is a simple Todo web application built with ReactJS.<br>Features:<br>* Lets you add todo; <br>* cross off the todo by clicking on todo if task is complete and vice-versa; <br>* Can delete seperate todo by clicking on delete icon; <br>* Allow user to filter All/Active/Complete todo; <br>* Show no. of todo left; <br>* Allow user to delete all complete todos; <br>* Button available to toggle all complete or active;",
+                    "images": ["images/todo-app.jpg"],
+                    "url": "https://kishorchouhan.github.io/Todo-App-Using-ReactJS/"
                 },
                 {
                     "title": "Website Optimization",
