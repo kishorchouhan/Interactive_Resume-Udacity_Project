@@ -4,7 +4,7 @@
 
 * My GitHub Project Repository: [https://github.com/kishorchouhan/Interactive_Resume-Udacity_Project](https://github.com/kishorchouhan/Interactive_Resume-Udacity_Project "My GitHub Project Repository")
 
-* My Project Website Is Hosted Here: [https://kishorchouhan.github.io/Interactive_Resume-Udacity_Project/](https://kishorchouhan.github.io/Interactive_Resume-Udacity_Project/ "My Hosted Website")
+* My Project Website Is Hosted Here: [https://kishorchouhan.github.io](https://kishorchouhan.github.io "My Hosted Website")
 
 To run the website and take code on local machine:
 
